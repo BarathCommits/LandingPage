@@ -37,6 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .nav-logo {
@@ -48,6 +49,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    padding-right: 1rem;
 }
 
 .nav-logo i {
@@ -59,7 +61,8 @@ body {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 2.5rem;
+    margin: 0 2rem;
 }
 
 .nav-menu a {
@@ -75,7 +78,7 @@ body {
 
 .nav-buttons {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .hamburger {
@@ -1405,6 +1408,9 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .nav-container {
+        gap: 1rem;
+    }
     .nav-menu {
         display: none;
     }
@@ -1415,6 +1421,10 @@ body {
     
     .hamburger {
         display: flex;
+    }
+    
+    .nav-logo {
+        padding-right: 0;
     }
     
     .hero-container {
