@@ -28,6 +28,7 @@ body {
     z-index: 1000;
     padding: 1rem 0;
     transition: all 0.3s ease;
+    overflow: visible;
 }
 
 .nav-container {
@@ -38,6 +39,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 4rem;
+    overflow: visible;
 }
 
 .nav-logo {
@@ -45,18 +47,28 @@ body {
     align-items: center;
     font-size: 1.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #4f46e5, #7c3aed);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #4f46e5;
     padding-right: 3rem;
     min-width: 200px;
+    overflow: visible;
+    white-space: nowrap;
+    text-overflow: visible;
+    line-height: 1.2;
+    height: auto;
 }
 
 .nav-logo i {
     margin-right: 0.5rem;
     font-size: 1.8rem;
     color: #4f46e5;
+}
+
+.nav-logo span {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
 }
 
 .nav-menu {
