@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PatentChain.ai - Democratizing Inventions Through AI & Blockchain</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>PatentChainAI - Democratizing Innovation for Everyone</title>
+    <meta name="description" content="PatentChainAI democratizes invention through AI-powered patent creation and blockchain-based licensing. Make innovation accessible, secure, and rewarding for everyone.">
+    
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
@@ -18,16 +22,15 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#challenges">Challenges</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#technology">Technology</a></li>
+                <li><a href="#problems">Problems</a></li>
+                <li><a href="#solutions">Solutions</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="nav-buttons">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" class="btn-secondary">Login</a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" class="btn-primary">Get Started</a>
+                <a href="/login" class="btn-secondary">Login</a>
+                <a href="/register" class="btn-primary">Get Started</a>
             </div>
             <div class="hamburger">
                 <span></span>
@@ -42,465 +45,166 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    The Patent System is <span class="gradient-text">Broken</span> - We're Fixing It
+                    Innovation is Stifled to Just 1%
                 </h1>
                 <p class="hero-subtitle">
-                    Out of 8 billion people, less than 1% benefit from patenting their ideas. 
-                    We're democratizing innovation by solving the real problems: cost, complexity, and access.
+                    <strong>8 billion people</strong> on this planet, but less than 1% can innovate and protect their ideas. The current patent system is broken, expensive, and exclusive.
+                    <br>
+                    <span class="hero-democratize">PatentChainAI is here to democratize invention and break down these barriers.</span>
                 </p>
                 <div class="hero-buttons">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" class="btn-primary btn-large">
-                        <i class="fas fa-exclamation-triangle"></i>
-                        See the Problems
-                    </a>
-                    <a href="https://youtu.be/weSPPxBHjFA" target="_blank" class="btn-outline btn-large">
-                        <i class="fas fa-play"></i>
-                        Watch Demo
-                    </a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">€2K-€2M</span>
-                        <span class="stat-label">Patent Cost Range</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">&lt;1%</span>
-                        <span class="stat-label">People Who Benefit</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">8B</span>
-                        <span class="stat-label">People Worldwide</span>
-                    </div>
+                    <a href="#problems" class="btn-primary btn-large">See the Problems</a>
+                    <a href="#solutions" class="btn-outline btn-large">Our Solutions</a>
                 </div>
             </div>
             <div class="hero-visual">
                 <div class="hero-image">
-                    <div class="floating-card card-1">
+                    <div class="floating-card card-1 problem-card">
                         <i class="fas fa-euro-sign"></i>
-                        <span>€2K-€2M Cost</span>
+                        <span>€2K-€2M Costs</span>
                     </div>
-                    <div class="floating-card card-2">
-                        <i class="fas fa-users-slash"></i>
-                        <span>&lt;1% Access</span>
-                    </div>
-                    <div class="floating-card card-3">
+                    <div class="floating-card card-2 problem-card">
                         <i class="fas fa-clock"></i>
                         <span>Years of Delays</span>
                     </div>
+                    <div class="floating-card card-3 problem-card">
+                        <i class="fas fa-users-slash"></i>
+                        <span>99% Excluded</span>
+                    </div>
+                    <div class="floating-card card-4 problem-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>AI Privacy & Security Risks</span>
+                    </div>
+                    <div class="floating-card card-5 problem-card">
+                        <i class="fas fa-globe"></i>
+                        <span>Limited Global Impact</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Patent System Challenges Section -->
-    <section class="challenges">
+    <!-- Problems Section -->
+    <section id="problems" class="problems">
         <div class="container">
             <div class="section-header">
-                <h2>The Patent System is Broken</h2>
-                <p>Out of 8 billion people, less than 1% benefit from patenting their ideas. Here's why:</p>
+                <h2>Innovation is Stifled</h2>
+                <p>
+                    Out of 8 billion people, less than 1% benefit from patenting their ideas. Here's why the current system fails everyone:
+                </p>
             </div>
-            
-            <div class="challenges-intro">
-                <div class="challenge-highlight">
-                    <div class="highlight-number">€2K - €2M</div>
-                    <div class="highlight-text">Average patent cost range</div>
-                </div>
-                <div class="challenge-highlight">
-                    <div class="highlight-number">&lt;1%</div>
-                    <div class="highlight-text">Of people benefit from patents</div>
-                </div>
-                <div class="challenge-highlight">
-                    <div class="highlight-number">Years</div>
-                    <div class="highlight-text">To get a patent approved</div>
-                </div>
-            </div>
-
-            <div class="challenges-grid">
-                <div class="challenge-card primary">
-                    <div class="challenge-icon">
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
                         <i class="fas fa-euro-sign"></i>
                     </div>
-                    <h3>The Cost Barrier</h3>
-                    <p class="challenge-description">Patent registration costs range from <strong>2,000 to 2 million Euros</strong>. This excludes 99% of inventors who can't afford these astronomical fees.</p>
-                    <div class="challenge-impact">
-                        <h4>Impact:</h4>
-                        <ul>
-                            <li>Individual inventors are priced out</li>
-                            <li>Small businesses can't protect innovations</li>
-                            <li>Only corporations with deep pockets benefit</li>
-                        </ul>
-                    </div>
+                    <h3>Exorbitant Costs</h3>
+                    <p>Patent costs range from €2K-€2M, excluding 99% of inventors who can't afford these fees.</p>
                 </div>
-                
-                <div class="challenge-card primary">
-                    <div class="challenge-icon">
+                <div class="problem-card">
+                    <div class="problem-icon">
                         <i class="fas fa-users-slash"></i>
                     </div>
-                    <h3>The Access Problem</h3>
-                    <p class="challenge-description">Out of <strong>8 billion people</strong>, less than <strong>5%</strong> understand patents, and less than <strong>1%</strong> actually benefit from the system.</p>
-                    <div class="challenge-impact">
-                        <h4>Impact:</h4>
-                        <ul>
-                            <li>99% of innovations go unprotected</li>
-                            <li>Brilliant ideas are lost forever</li>
-                            <li>Global innovation is severely limited</li>
-                        </ul>
-                    </div>
+                    <h3>Limited Access</h3>
+                    <p>Less than 1% of people benefit from patents due to cost, complexity, and lack of understanding.</p>
                 </div>
-                
-                <div class="challenge-card secondary">
-                    <div class="challenge-icon">
-                        <i class="fas fa-puzzle-piece"></i>
-                    </div>
-                    <h3>Fragmented Ownership</h3>
-                    <p class="challenge-description">Patent rights are scattered across jurisdictions, making it impossible to track usage and enforce royalties effectively.</p>
-                    <div class="challenge-impact">
-                        <h4>Impact:</h4>
-                        <ul>
-                            <li>Lost revenue opportunities</li>
-                            <li>Complex legal disputes</li>
-                            <li>Inefficient patent management</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="challenge-card secondary">
-                    <div class="challenge-icon">
+                <div class="problem-card">
+                    <div class="problem-icon">
                         <i class="fas fa-clock"></i>
                     </div>
                     <h3>Years of Delays</h3>
-                    <p class="challenge-description">The patent approval process takes years, during which time innovations become obsolete and opportunities are lost.</p>
-                    <div class="challenge-impact">
-                        <h4>Impact:</h4>
-                        <ul>
-                            <li>Innovations become outdated</li>
-                            <li>Market opportunities disappear</li>
-                            <li>Inventors lose motivation</li>
-                        </ul>
-                    </div>
+                    <p>Patent approval takes years, during which innovations become obsolete and opportunities are lost.</p>
                 </div>
-                
-                <div class="challenge-card secondary">
-                    <div class="challenge-icon">
+                <div class="problem-card">
+                    <div class="problem-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Innovation Security Issues</h3>
-                    <p class="challenge-description">Current systems fail to protect innovations adequately, leading to theft, unauthorized use, and loss of intellectual property rights.</p>
-                    <div class="challenge-impact">
-                        <h4>Impact:</h4>
-                        <ul>
-                            <li>Innovations stolen before protection</li>
-                            <li>Unauthorized commercial use</li>
-                            <li>Loss of competitive advantage</li>
-                        </ul>
-                    </div>
+                    <h3>Security Risks</h3>
+                    <p>Research and ideas are exposed to theft, unauthorized use, and unclear IP ownership.</p>
                 </div>
-                
-                <div class="challenge-card secondary">
-                    <div class="challenge-icon">
-                        <i class="fas fa-robot"></i>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-handshake"></i>
                     </div>
-                    <h3>AI Privacy & Research Concerns</h3>
-                    <p class="challenge-description">Using AI for research and innovation raises serious privacy concerns, data security issues, and questions about intellectual property ownership.</p>
-                    <div class="challenge-impact">
-                        <h4>Impact:</h4>
-                        <ul>
-                            <li>Data privacy violations</li>
-                            <li>Unclear IP ownership with AI</li>
-                            <li>Research confidentiality compromised</li>
-                        </ul>
+                    <h3>Licensing Inefficiency</h3>
+                    <p>Manual licensing processes are slow, expensive, and prone to errors, delaying revenue generation.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-globe"></i>
                     </div>
+                    <h3>Limited Global Impact</h3>
+                    <p>Innovations are restricted by geographic boundaries, limiting their global reach and impact.</p>
                 </div>
-            </div>
-            
-            <div class="challenges-summary">
-                <div class="summary-content">
-                    <h3>The Result: Innovation is Stifled to Just 1%</h3>
-                    <p>These barriers prevent the world's brightest minds from protecting and monetizing their innovations. We're losing countless breakthroughs that could solve humanity's biggest challenges. The current system ensures that only 1% of people can participate in the innovation economy, leaving 99% of human potential untapped.</p>
-                </div>
-            </div>
-            
-            <div class="challenges-cta">
-                <h3>PatentChain.ai is the Solution</h3>
-                <p>We're fixing the broken patent system to make innovation accessible to everyone, not just the 1%. We address security concerns, AI privacy issues, and provide secure innovation protection.</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" class="btn-primary btn-large">
-                    <i class="fas fa-rocket"></i>
-                    See How We Fix It
-                </a>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
         <div class="container">
             <div class="section-header">
-                <h2>Our Solutions</h2>
-                <p>Addressing the real problems that prevent innovation from reaching its potential</p>
+                <h2>How PatentChainAI Solves These Problems</h2>
+                <p>
+                    We combine AI, blockchain, and decentralized technology to empower every inventor, everywhere.
+                </p>
             </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-dollar-sign"></i>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-user-robot"></i>
                     </div>
-                    <h3>Affordable Patent Creation</h3>
-                    <p>Reduce patent costs from €2K-€2M to just €99-€1000. Make patenting accessible to everyone, not just corporations with deep pockets.</p>
-                    <ul class="feature-list">
-                        <li>99% cost reduction</li>
-                        <li>No attorney fees</li>
-                        <li>Transparent pricing</li>
-                        <li>Payment plans available</li>
-                    </ul>
+                    <h3>AI Research Agent</h3>
+                    <p>Conduct secure, private research with AI agents that analyze global data, validate novelty, and protect your ideas from the start.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
+                <div class="solution-card">
+                    <div class="solution-icon">
                         <i class="fas fa-users"></i>
                     </div>
-                    <h3>Democratized Access</h3>
-                    <p>Open patenting to the 99% who are currently excluded. From students to small businesses, everyone can now protect their innovations.</p>
-                    <ul class="feature-list">
-                        <li>Global accessibility</li>
-                        <li>No technical barriers</li>
-                        <li>Simple interface</li>
-                        <li>Educational resources</li>
-                    </ul>
+                    <h3>Global Team Collaboration</h3>
+                    <p>Work seamlessly with inventors and experts worldwide. Break down silos and accelerate innovation together.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>Privacy-Protected Analysis</h3>
+                    <p>Analyze trends and prior art across the web while keeping your research confidential and your data secure.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>AI-Generated Documents</h3>
+                    <p>Instantly create professional, comprehensive patent documents and technical specs—no legal expertise required.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Token-Based Protection</h3>
+                    <p>Secure your inventions with blockchain tokens that provide immutable, global proof of ownership and priority.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <h3>Smart Contract Licensing</h3>
+                    <p>Automate licensing, royalties, and enforcement with smart contracts—no lawyers, no delays, no disputes.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Decentralized Storage</h3>
+                    <p>Store your IP securely across a distributed network. No single point of failure, no centralized risk.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
                         <i class="fas fa-bolt"></i>
                     </div>
-                    <h3>Fast & Simple Process</h3>
-                    <p>Reduce patent filing time from years to weeks. Eliminate complex legal jargon and bureaucratic delays that kill innovation.</p>
-                    <ul class="feature-list">
-                        <li>Weeks not years</li>
-                        <li>Plain English interface</li>
-                        <li>No legal jargon</li>
-                        <li>Instant feedback</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Transparent Tracking</h3>
-                    <p>Solve fragmented ownership and complex licensing. Track patent usage, enforce royalties, and manage rights with complete transparency.</p>
-                    <ul class="feature-list">
-                        <li>Clear ownership tracking</li>
-                        <li>Automated royalty enforcement</li>
-                        <li>Usage monitoring</li>
-                        <li>Dispute prevention</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Secure Innovation Protection</h3>
-                    <p>Address security concerns and AI privacy issues with blockchain-based protection that ensures your innovations remain secure and confidential.</p>
-                    <ul class="feature-list">
-                        <li>Blockchain security</li>
-                        <li>Privacy-preserving AI</li>
-                        <li>Confidential research protection</li>
-                        <li>Secure IP ownership</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Technology Foundation Section -->
-    <section id="technology" class="technology-foundation">
-        <div class="container">
-            <div class="section-header">
-                <h2>Powered by Revolutionary Technology</h2>
-                <p>Blockchain, AI, and Token Economics working together to transform the patent system</p>
-            </div>
-            
-            <div class="tech-grid">
-                <!-- Blockchain Technology -->
-                <div class="tech-card blockchain">
-                    <div class="tech-icon">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <h3>Blockchain Technology</h3>
-                    <p class="tech-description">Immutable, transparent, and decentralized patent ownership and licensing on the blockchain.</p>
-                    
-                    <div class="tech-benefits">
-                        <h4>How Blockchain Solves Patent Problems:</h4>
-                        <ul>
-                            <li><strong>Immutable Ownership:</strong> Patent rights are permanently recorded on the blockchain, preventing disputes and fraud</li>
-                            <li><strong>Global Accessibility:</strong> Anyone with internet access can verify patent ownership and licensing status</li>
-                            <li><strong>Smart Contracts:</strong> Automated royalty payments and licensing agreements execute without intermediaries</li>
-                            <li><strong>Transparent History:</strong> Complete audit trail of all patent transactions and modifications</li>
-                            <li><strong>Decentralized Storage:</strong> Patent data is distributed across the network, ensuring permanence and security</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="tech-use-cases">
-                        <h4>Blockchain Applications:</h4>
-                        <div class="use-case-grid">
-                            <div class="use-case">
-                                <i class="fas fa-certificate"></i>
-                                <span>Patent Tokenization</span>
-                            </div>
-                            <div class="use-case">
-                                <i class="fas fa-handshake"></i>
-                                <span>Smart Licensing</span>
-                            </div>
-                            <div class="use-case">
-                                <i class="fas fa-coins"></i>
-                                <span>Royalty Distribution</span>
-                            </div>
-                            <div class="use-case">
-                                <i class="fas fa-shield-alt"></i>
-                                <span>Ownership Verification</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- AI Technology -->
-                <div class="tech-card ai">
-                    <div class="tech-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Artificial Intelligence</h3>
-                    <p class="tech-description">Advanced AI systems that automate patent creation, analysis, and management processes, including intelligent research agents that guide inventors through the innovation journey.</p>
-                    
-                    <div class="tech-benefits">
-                        <h4>How AI Revolutionizes Patent Creation:</h4>
-                        <ul>
-                            <li><strong>Automated Patent Drafting:</strong> AI generates comprehensive patent applications in minutes, not months, that can be used by patent attorneys or individuals for filing</li>
-                            <li><strong>Prior Art Analysis:</strong> Machine learning algorithms search millions of documents to ensure patent novelty</li>
-                            <li><strong>Legal Compliance:</strong> AI ensures all patent applications meet regulatory requirements across jurisdictions</li>
-                            <li><strong>Cost Reduction:</strong> Eliminates expensive legal fees by automating routine patent work</li>
-                            <li><strong>Quality Assurance:</strong> AI continuously improves patent quality through learning from successful applications</li>
-                            <li><strong>Research Agents:</strong> AI-powered research assistants that help inventors discover, analyze, and validate their innovations across global databases</li>
-                            <li><strong>Intelligent Innovation Guidance:</strong> Research agents provide real-time feedback, suggest improvements, and identify potential market opportunities</li>
-                            <li><strong>Privacy Protection:</strong> Secure AI processing that protects your research data and maintains confidentiality</li>
-                            <li><strong>Clear IP Ownership:</strong> Transparent AI-assisted innovation that clearly defines intellectual property rights</li>
-                        </ul>
-                    </div>
-                    
-                                            <div class="tech-use-cases">
-                            <h4>AI Applications:</h4>
-                            <div class="use-case-grid">
-                                <div class="use-case">
-                                    <i class="fas fa-file-alt"></i>
-                                    <span>Patent Drafting</span>
-                                </div>
-                                <div class="use-case">
-                                    <i class="fas fa-search"></i>
-                                    <span>Prior Art Search</span>
-                                </div>
-                                <div class="use-case">
-                                    <i class="fas fa-balance-scale"></i>
-                                    <span>Legal Analysis</span>
-                                </div>
-                                <div class="use-case">
-                                    <i class="fas fa-chart-bar"></i>
-                                    <span>Market Analysis</span>
-                                </div>
-                                <div class="use-case">
-                                    <i class="fas fa-robot"></i>
-                                    <span>Research Agents</span>
-                                </div>
-                                <div class="use-case">
-                                    <i class="fas fa-lightbulb"></i>
-                                    <span>Innovation Guidance</span>
-                                </div>
-                                <div class="use-case">
-                                    <i class="fas fa-user-shield"></i>
-                                    <span>Privacy Protection</span>
-                                </div>
-                                <div class="use-case">
-                                    <i class="fas fa-certificate"></i>
-                                    <span>IP Ownership</span>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-
-                <!-- Token Economics -->
-                <div class="tech-card tokenomics">
-                    <div class="tech-icon">
-                        <i class="fas fa-coins"></i>
-                    </div>
-                    <h3>Token Economics</h3>
-                    <p class="tech-description">Innovative token-based system that creates new revenue streams and incentivizes participation in the patent ecosystem.</p>
-                    
-                    <div class="tech-benefits">
-                        <h4>How Token Economics Transforms Patent Value:</h4>
-                        <ul>
-                            <li><strong>Patent Tokens:</strong> Each patent is tokenized, creating tradeable digital assets with real-world value</li>
-                            <li><strong>Fractional Ownership:</strong> Investors can own portions of valuable patents, democratizing access to IP investment</li>
-                            <li><strong>Liquidity:</strong> Patent tokens can be traded on secondary markets, providing immediate value realization</li>
-                            <li><strong>Incentive Alignment:</strong> Token holders benefit from patent success, creating aligned interests</li>
-                            <li><strong>Global Marketplace:</strong> 24/7 trading of patent tokens across borders without traditional barriers</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="tech-use-cases">
-                        <h4>Token Applications:</h4>
-                        <div class="use-case-grid">
-                            <div class="use-case">
-                                <i class="fas fa-exchange-alt"></i>
-                                <span>Patent Trading</span>
-                            </div>
-                            <div class="use-case">
-                                <i class="fas fa-percentage"></i>
-                                <span>Revenue Sharing</span>
-                            </div>
-                            <div class="use-case">
-                                <i class="fas fa-users"></i>
-                                <span>Crowdfunding</span>
-                            </div>
-                            <div class="use-case">
-                                <i class="fas fa-chart-line"></i>
-                                <span>Value Appreciation</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Technology Integration -->
-            <div class="tech-integration">
-                <div class="integration-content">
-                    <h3>The Power of Integration</h3>
-                    <p>When blockchain, AI, and token economics work together, they create a revolutionary patent ecosystem that benefits everyone:</p>
-                    
-                    <div class="integration-benefits">
-                        <div class="integration-benefit">
-                            <div class="benefit-icon">
-                                <i class="fas fa-rocket"></i>
-                            </div>
-                            <div class="benefit-content">
-                                <h4>Democratized Innovation</h4>
-                                <p>AI makes patent creation accessible, blockchain ensures transparency, and tokens provide immediate value to inventors. We break the 1% barrier and open innovation to the 99%.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="integration-benefit">
-                            <div class="benefit-icon">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                            <div class="benefit-content">
-                                <h4>Global Market Access</h4>
-                                <p>Blockchain enables borderless patent trading, while AI ensures compliance across all jurisdictions.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="integration-benefit">
-                            <div class="benefit-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <div class="benefit-content">
-                                <h4>Continuous Value Creation</h4>
-                                <p>Token economics incentivizes innovation, while AI and blockchain ensure quality and transparency. Secure innovation protection addresses AI privacy concerns and research confidentiality.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <h3>Instant Monetization</h3>
+                    <p>Turn your ideas into revenue streams immediately through our global, blockchain-powered marketplace.</p>
                 </div>
             </div>
         </div>
@@ -511,211 +215,53 @@
         <div class="container">
             <div class="section-header">
                 <h2>How We Fix It</h2>
-                <p>Revolutionary technology working together to solve the patent system problems</p>
+                <p>Three simple steps to solve the patent system problems</p>
             </div>
             <div class="steps-container">
                 <div class="step">
                     <div class="step-number">1</div>
                     <div class="step-content">
-                        <h3>AI-Powered Patent Creation</h3>
-                        <p>Our advanced AI system creates comprehensive patent applications in minutes that can be used by patent attorneys or individuals for filing, reducing costs from €2K-€2M to just €99-€1000.</p>
+                        <h3>Solve the Cost Problem</h3>
+                        <p>
+                            Reduce patent costs from €2K-€2M to just €99-€299. No more
+                            expensive attorneys or hidden fees blocking innovation.
+                        </p>
                         <div class="step-features">
-                            <span><i class="fas fa-brain"></i> AI patent drafting</span>
-                            <span><i class="fas fa-search"></i> Automated prior art search</span>
-                            <span><i class="fas fa-balance-scale"></i> Legal compliance check</span>
-                        </div>
-                        <div class="step-tech-highlight">
-                            <strong>AI Technology:</strong> Machine learning algorithms analyze millions of patents to ensure quality and novelty
+                            <span><i class="fas fa-check"></i> 99% cost reduction</span>
+                            <span><i class="fas fa-check"></i> No attorney fees</span>
+                            <span><i class="fas fa-check"></i> Transparent pricing</span>
                         </div>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
                     <div class="step-content">
-                        <h3>Blockchain Tokenization</h3>
-                        <p>Each patent is tokenized on the blockchain, creating immutable ownership records and enabling global trading.</p>
+                        <h3>Solve the Access Problem</h3>
+                        <p>
+                            Open patenting to the 99% who are currently excluded. Simple
+                            interface, no technical barriers, global accessibility.
+                        </p>
                         <div class="step-features">
-                            <span><i class="fas fa-link"></i> Immutable ownership</span>
-                            <span><i class="fas fa-globe"></i> Global accessibility</span>
-                            <span><i class="fas fa-shield-alt"></i> Fraud prevention</span>
-                        </div>
-                        <div class="step-tech-highlight">
-                            <strong>Blockchain Technology:</strong> Smart contracts automate licensing and royalty payments without intermediaries
+                            <span><i class="fas fa-check"></i> Global accessibility</span>
+                            <span><i class="fas fa-check"></i> No technical barriers</span>
+                            <span><i class="fas fa-check"></i> Simple interface</span>
                         </div>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
                     <div class="step-content">
-                        <h3>Token Economics & Trading</h3>
-                        <p>Patent tokens create new revenue streams through fractional ownership, trading, and automated royalty distribution.</p>
+                        <h3>Solve the Complexity Problem</h3>
+                        <p>
+                            Eliminate fragmented ownership and complex licensing. Clear
+                            tracking, automated enforcement, transparent management.
+                        </p>
                         <div class="step-features">
-                            <span><i class="fas fa-coins"></i> Patent tokenization</span>
-                            <span><i class="fas fa-exchange-alt"></i> Global trading</span>
-                            <span><i class="fas fa-percentage"></i> Automated royalties</span>
-                        </div>
-                        <div class="step-tech-highlight">
-                            <strong>Token Economics:</strong> 24/7 global marketplace for patent trading and investment
+                            <span><i class="fas fa-check"></i> Clear ownership tracking</span>
+                            <span><i class="fas fa-check"></i> Automated enforcement</span>
+                            <span><i class="fas fa-check"></i> Transparent management</span>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <!-- Technology Flow -->
-            <div class="tech-flow">
-                <div class="flow-content">
-                    <h3>The Complete Technology Stack</h3>
-                    <p>See how AI, blockchain, and token economics work together to create a revolutionary patent ecosystem:</p>
-                    
-                    <div class="flow-diagram">
-                        <div class="flow-step">
-                            <div class="flow-icon">
-                                <i class="fas fa-lightbulb"></i>
-                            </div>
-                            <h4>Innovation</h4>
-                            <p>Inventors submit their ideas</p>
-                        </div>
-                        <div class="flow-arrow">
-                            <i class="fas fa-arrow-right"></i>
-                        </div>
-                        <div class="flow-step">
-                            <div class="flow-icon">
-                                <i class="fas fa-brain"></i>
-                            </div>
-                            <h4>AI Processing</h4>
-                            <p>AI creates patent applications that can be used by patent attorneys or individuals for filing</p>
-                        </div>
-                        <div class="flow-arrow">
-                            <i class="fas fa-arrow-right"></i>
-                        </div>
-                        <div class="flow-step">
-                            <div class="flow-icon">
-                                <i class="fas fa-link"></i>
-                            </div>
-                            <h4>Blockchain</h4>
-                            <p>Patents tokenized on blockchain</p>
-                        </div>
-                        <div class="flow-arrow">
-                            <i class="fas fa-arrow-right"></i>
-                        </div>
-                        <div class="flow-step">
-                            <div class="flow-icon">
-                                <i class="fas fa-coins"></i>
-                            </div>
-                            <h4>Token Trading</h4>
-                            <p>Global marketplace trading</p>
-                        </div>
-                        <div class="flow-arrow">
-                            <i class="fas fa-arrow-right"></i>
-                        </div>
-                        <div class="flow-step">
-                            <div class="flow-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <h4>Value Creation</h4>
-                            <p>Continuous revenue generation</p>
-                        </div>
-                    </div>
-                    
-                    <div class="flow-summary">
-                        <p><strong>Result:</strong> A complete ecosystem where innovation is democratized, protected, and monetized through cutting-edge technology.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Target Audience Section -->
-    <section class="audience">
-        <div class="container">
-            <div class="section-header">
-                <h2>Built for the 99%</h2>
-                <p>Empowering everyone who's been excluded from the patent system</p>
-            </div>
-            <div class="audience-grid">
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-user-graduate"></i>
-                    </div>
-                    <h3>Students & Researchers</h3>
-                    <p>Protect your academic innovations and research breakthroughs with affordable patent creation.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <h3>Professionals & Engineers</h3>
-                    <p>Secure your workplace innovations and side projects without expensive legal fees.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-user-md"></i>
-                    </div>
-                    <h3>Doctors & Medical Professionals</h3>
-                    <p>Patent medical devices, treatments, and healthcare innovations to improve patient care.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>Independent Inventors</h3>
-                    <p>Turn your brilliant ideas into protected assets and generate revenue through licensing.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3>Startups & Entrepreneurs</h3>
-                    <p>Protect your IP early and cost-effectively while building your business foundation.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-university"></i>
-                    </div>
-                    <h3>Universities & Research Institutions</h3>
-                    <p>Streamline technology transfer and monetize academic research through blockchain licensing.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <h3>Corporations & Enterprises</h3>
-                    <p>Scale your patent portfolio management and licensing operations with AI automation.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-microscope"></i>
-                    </div>
-                    <h3>Scientists & Lab Researchers</h3>
-                    <p>Protect your experimental discoveries and laboratory innovations for commercial applications.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Software Developers & Tech Innovators</h3>
-                    <p>Patent your algorithms, software solutions, and digital innovations in the tech space.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-leaf"></i>
-                    </div>
-                    <h3>Environmental & Green Tech Innovators</h3>
-                    <p>Protect sustainable solutions and renewable energy technologies for a better future.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-palette"></i>
-                    </div>
-                    <h3>Designers & Creative Professionals</h3>
-                    <p>Patent your design innovations, product concepts, and creative technological solutions.</p>
-                </div>
-                <div class="audience-card">
-                    <div class="audience-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Patent Investors & Licensees</h3>
-                    <p>Discover and invest in promising patents through our global blockchain marketplace.</p>
                 </div>
             </div>
         </div>
@@ -733,7 +279,7 @@
                     <div class="pricing-header">
                         <h3>Starter</h3>
                         <div class="price">
-                            <span class="currency">€</span>
+                            <span class="currency">$</span>
                             <span class="amount">99</span>
                             <span class="period">/patent</span>
                         </div>
@@ -744,15 +290,15 @@
                         <li><i class="fas fa-check"></i> Basic Legal Review</li>
                         <li><i class="fas fa-check"></i> Filing Support</li>
                     </ul>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" class="btn-primary">Get Started</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" rel="noopener noreferrer" class="btn-primary">Get Started</a>
                 </div>
                 <div class="pricing-card featured">
                     <div class="pricing-badge">Most Popular</div>
                     <div class="pricing-header">
                         <h3>Professional</h3>
                         <div class="price">
-                            <span class="currency">€</span>
-                            <span class="amount">1000</span>
+                            <span class="currency">$</span>
+                            <span class="amount">299</span>
                             <span class="period">/patent</span>
                         </div>
                     </div>
@@ -765,7 +311,7 @@
                         <li><i class="fas fa-check"></i> Revenue Analytics</li>
                         <li><i class="fas fa-check"></i> Priority Support</li>
                     </ul>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" class="btn-primary">Get Started</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" rel="noopener noreferrer" class="btn-primary">Get Started</a>
                 </div>
                 <div class="pricing-card">
                     <div class="pricing-header">
@@ -783,7 +329,7 @@
                         <li><i class="fas fa-check"></i> White-label Options</li>
                         <li><i class="fas fa-check"></i> Advanced Analytics</li>
                     </ul>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" class="btn-outline">Contact Sales</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" rel="noopener noreferrer" class="btn-outline">Contact Sales</a>
                 </div>
             </div>
         </div>
@@ -792,15 +338,17 @@
     <!-- CTA Section -->
     <section class="cta">
         <div class="container">
-                            <div class="cta-content">
-                    <h2>Ready to Fix the Patent System?</h2>
-                    <p>Join the revolution to make innovation accessible to everyone, not just the 1%</p>
+            <div class="cta-content">
+                <h2>Ready to Join the Innovation Revolution?</h2>
+                <p>
+                    Be part of the movement that's making invention accessible, secure, and rewarding for everyone.
+                </p>
                 <div class="cta-buttons">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" class="btn-primary btn-large">
-                        <i class="fas fa-exclamation-triangle"></i>
-                        Join the Revolution
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezx1kNF11uFO7c5kgvNzJKVv6aCXbYvmgd05JrRGy_xKJrxw/viewform?usp=sharing&ouid=107165405072342414837" target="_blank" rel="noopener noreferrer" class="btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Get Started Now
                     </a>
-                    <a href="https://youtu.be/weSPPxBHjFA" target="_blank" class="btn-outline btn-large">
+                    <a href="https://youtu.be/weSPPxBHjFA" target="_blank" rel="noopener noreferrer" class="btn-outline btn-large">
                         <i class="fas fa-play"></i>
                         Watch Demo
                     </a>
@@ -818,39 +366,50 @@
                         <i class="fas fa-link"></i>
                         <span>PatentChain.ai</span>
                     </div>
-                    <p>Democratizing inventions through AI-powered patent creation and blockchain-based licensing.</p>
+                    <p>
+                        Democratizing inventions through AI-powered patent creation and
+                        blockchain-based licensing.
+                    </p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://discord.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-discord"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="footer-section">
                     <h4>Product</h4>
                     <ul>
-                        <li><a href="#">AI Patent Creation</a></li>
-                        <li><a href="#">Blockchain Tokenization</a></li>
-                        <li><a href="#">Global Licensing</a></li>
-                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#" class="footer-link">AI Patent Creation</a></li>
+                        <li><a href="#" class="footer-link">Blockchain Tokenization</a></li>
+                        <li><a href="#" class="footer-link">Global Licensing</a></li>
+                        <li><a href="#pricing" class="footer-link">Pricing</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Press</a></li>
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">Press</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Support</h4>
                     <ul>
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Legal</a></li>
-                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#" class="footer-link">Help Center</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link">Legal</a></li>
+                        <li><a href="#" class="footer-link">Privacy</a></li>
                     </ul>
                 </div>
             </div>
@@ -860,6 +419,7 @@
         </div>
     </footer>
 
+    <!-- Custom JavaScript -->
     <script src="script.js"></script>
 </body>
 </html> 
